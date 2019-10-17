@@ -1,0 +1,17 @@
+{
+  "name": "test_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive website portfolio",
+  "main": "index.js",
+  "homepage": "https://github.com/NiKato/test_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/scss/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "NiKato",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0"
+  }
+}
