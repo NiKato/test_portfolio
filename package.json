@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Responsive website portfolio",
   "main": "index.js",
-  "homepage": "https://github.com/NiKato/test_portfolio",
+  "homepage": "https://github.com/NiKato/test_portfolio.git",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/scss/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o scss/ --recursive",
+    "deploy": ""
+    
   },
   "author": "NiKato",
   "license": "ISC",
